@@ -1,0 +1,18 @@
+<form align="center" method="post" >
+  {% csrf_token %}
+  <br><br><br><br><br><br><br><br>
+  <div class="form-group">
+    <label for="np">Enter news portals</label>
+    <input type="text" class="form-control" id="np"  placeholder="Enter urls" name="np"><br>
+    <small id="emailHelp" class="form-text text-muted">You can select multiple news portals.</small>
+  </div>
+  <br>
+  <br>
+  <div class="form-group">
+    <label for="du">Time Duration</label>
+    <input type="mints" class="form-control" id="du" placeholder="Enter Duration" name="du">
+  </div>
+  <br><br>
+  <button type="submit" class="btn btn-primary">Submit</button>
+
+</form>
