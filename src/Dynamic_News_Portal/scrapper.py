@@ -24,4 +24,6 @@ if __name__ == '__main__':
     url = 'https://www.manoramaonline.com/environment/environment-news/2023/03/09/unusual-the-mysterious-rain-of-worms-scares-china.html'
     html_tag = 'h1'
     class_name = "story-headline"
-    scrap(url, html_tag, class_name)
+    scrap(url, html_tag, class_name) 
+
+    
