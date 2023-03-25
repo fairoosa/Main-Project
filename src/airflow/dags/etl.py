@@ -14,7 +14,7 @@ with DAG(
     tags=["example2", "example3"],
 ) as dag:
     latest_only = LatestOnlyOperator(task_id="latest_only")
-    task1 = EmptyOperator(task_id="task1")g
+    task1 = EmptyOperator(task_id="task1")
 
     latest_only >> task1
 
