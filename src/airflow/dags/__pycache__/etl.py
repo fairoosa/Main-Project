@@ -33,7 +33,7 @@ def scrapper():
 
 with DAG(
     dag_id="daily_Scrapper2",
-    schedule_interval='@once', 
+    schedule_interval='@weekly', 
     start_date=dt.datetime(2021, 1, 1),
     catchup=False,
 ) as dag:
