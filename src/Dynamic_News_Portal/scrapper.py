@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 
 
-def scrap(url, html_tag, class_name):
+def scraper(url, html_tag, class_name):
 
     response = requests.get(url)
     # print("response: ", response)
