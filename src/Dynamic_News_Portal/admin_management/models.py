@@ -3,6 +3,7 @@ from datetime import datetime
 
 
 class NewsPortal(models.Model):
+    portal_name = models.CharField(max_length = 100, null=True)
     url = models.URLField(max_length = 200)
     html_tag = models.CharField(max_length = 25)
     class_name = models.CharField(max_length = 100)
