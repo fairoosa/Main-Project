@@ -22,9 +22,9 @@ def scraper(url, html_tag, class_name):
 
 if __name__ == '__main__':
     print("Started")
-    url = "https://www.businesstoday.in/markets/market-commentary/story/sensex-climbs-600-pts-nifty-tops-17250-ril-shares-gain-ahead-of-board-meet-on-biz-demerger-375493-2023-03-31"
+    url = "https://www.bbc.com/news/world-us-canada-65131913"
     html_tag = 'div'
-    class_name = "story-with-main-sec"
-    scrap(url, html_tag, class_name) 
+    class_name = "ssrcss-11r1m41-RichTextComponentWrapper ep2nwvo0"
+    scraper(url, html_tag, class_name) 
 
     
