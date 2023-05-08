@@ -1,14 +1,7 @@
+<h1>{{ page_title }}</h1>
 
-
-
-{% for i in object_list %}
-
-created date : {{ i.created_date }}
-<br>
-catagory : {{ i.catagory }}
-<br>
-rank : {{ i.rank }}
-<br>
-text : {{ i.text }}
-
+{% for i in news %}
+    {{i.name}} <br>
+    {{i.title}} <br>
+    {{i.description}} <hr>
 {% endfor %}
