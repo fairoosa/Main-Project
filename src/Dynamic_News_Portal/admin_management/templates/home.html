@@ -1,29 +1,39 @@
+<html>
+  <head>
 <form align="center" method="post" >
   {% csrf_token %}
   <br><br><br><br><br><br><br><br>
   <div class="form-group">
     <label for="np">Enter news portal </label>
-    <input type="text" class="form-control" id="np"  placeholder="Enter urls" name="np"><br>
-    <small id="emailHelp" class="form-text text-muted">You can select multiple news portals.</small>
+    <input type="text" class="form-control" id="np"  
+    placeholder="Enter urls" name="np"><br>
+    <small id="emailHelp" class="form-text text-muted">
+      You can select multiple news portals.</small>
   </div>
   <div class="form-group">
     <label for="np">Enter news portal url</label>
-    <input type="text" class="form-control" id="np"  placeholder="Enter urls" name="np"><br>
-    <small id="emailHelp" class="form-text text-muted">You can select multiple news portals.</small>
+    <input type="text" class="form-control" id="np"  
+    placeholder="Enter urls" name="np"><br>
+    <small id="emailHelp" class="form-text text-muted">
+      You can select multiple news portals.</small>
   </div>
   <br>
   <br>
   <div class="form-group">
     <label for="du">Html tag</label>
-    <input type="text" class="form-control" id="tag" placeholder="Enter html tag" name="tag">
+    <input type="text" class="form-control" id="tag" 
+    placeholder="Enter html tag" name="tag">
   </div>
   <br>
   <br>
   <div class="form-group">
     <label for="du">Class name</label>
-    <input type="text" class="form-control" id="class" placeholder="Enter class name" name="class">
+    <input type="text" class="form-control" id="class"
+     placeholder="Enter class name" name="class">
   </div>
   <br><br>
   <button type="submit" class="btn btn-primary">Submit</button>
 
 </form>
+</head>
+</html>
